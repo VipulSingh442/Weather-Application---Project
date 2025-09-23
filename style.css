@@ -1,0 +1,95 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    font-family: 'Poppins','sans-serif';
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+   
+   border-radius: 10%;
+   height : 600px;
+   width : 500px;
+   display : flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 60px;
+   background-color: rgb(113, 209, 211);
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+     align-items: center;
+     height : 80px;
+     width: 400px;
+}
+
+.navbar input{
+    width : 310px;
+    height : 40px;
+    font-size: 20px;
+   border : none;
+   outline: none;
+   margin-left: 40px;
+   
+   
+}
+
+input::placeholder{
+    text-indent: 10px;
+}
+
+.navbar img{
+    object-fit: cover;
+    height : 35px;
+    width: 30px;
+}
+
+.navbar img:hover{
+    height : 40px;
+    width: 35px;
+}
+
+.images{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images img{
+    height : 190px;
+    width : 190px;
+}
+
+.temp{
+    
+    display: flex;
+    justify-content : space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+   
+}
+
+.temp p{
+    font-size: 45px;
+    color :  green;
+}
+
+.addinfo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    width : 450px;
+}
